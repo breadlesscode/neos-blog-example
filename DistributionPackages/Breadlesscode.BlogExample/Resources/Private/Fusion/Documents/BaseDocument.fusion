@@ -1,0 +1,33 @@
+prototype(Breadlesscode.BlogExample:Documents.BaseDocument) < prototype(Neos.Neos:Page) {
+    head.stylesheets.layout = Neos.Fusion:Tag {
+        tagName = 'link'
+        attributes {
+            rel = "stylesheet"
+            type = "text/css"
+            href = Neos.Fusion:ResourceUri {
+                path = 'resource://Breadlesscode.BlogExample/Public/Styles/main.css'
+            }
+        }
+    }
+
+    body >
+    body = Breadlesscode.BlogExample:Layouts.MainLayout {
+        headerTitle = ${ q(node).property('title') }
+        categories = ${ q(site).find('[instanceof Breadlesscode.Blog:Document.CategoryBlog]').get() }
+        tags = ${ q(site).find('[instanceof Breadlesscode.Blog:Document.Tag]').get() }
+        content = Neos.Fusion:Array {
+            main =  Neos.Neos:ContentCollection {
+                nodePath = 'main'
+            }
+        }
+        footer = 'Breadlesscode.Blog Example'
+
+        @cache {
+            entryTags {
+                1 = ${Neos.Caching.nodeTag(node)}
+                2 = ${Neos.Caching.nodeTypeTag('Breadlesscode.Blog:Document.Tag' ,node)}
+                3 = ${Neos.Caching.nodeTypeTag('Breadlesscode.Blog:Document.CategoryBlog' ,node)}
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "description": "",
+    "type": "neos-site",
+    "require": {
+        "neos/neos": "*",
+        "neos/nodetypes": "*",
+        "neos/fusion-afx": "~1.0",
+        "breadlesscode/neos-blog": "@dev"
+    },
+    "suggest": {
+        "neos/seo": "*"
+    },
+    "name": "breadlesscode/neos-blog-example",
+    "autoload": {
+        "psr-4": {
+            "Breadlesscode\\BlogExample\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Breadlesscode.BlogExample"
+        }
+    }
+}

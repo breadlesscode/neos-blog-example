@@ -1,0 +1,22 @@
+prototype(Breadlesscode.Blog:Document.Post) >
+prototype(Breadlesscode.Blog:Document.Post) < prototype(Breadlesscode.BlogExample:Documents.BaseDocument) {
+    body.content.tags = Breadlesscode.BlogExample:Component.TagList {
+        tags = ${ q(node).property('tags') }
+        @process.prefixTags = ${ '<strong>Tags:</strong> ' + value }
+        @position = 'after main'
+    }
+
+    body.content.author = Neos.Fusion:Tag {
+        tagName = 'p'
+        author = ${ Blog.getUserByIdentifier(q(node).property('author')) }
+        content = ${ '<strong>Author:</strong> ' + this.author.label }
+    }
+
+    body.content.publishDate = Neos.Fusion:Tag {
+        tagName = 'p'
+        date = ${ q(node).property('datePublished') }
+        content = ${ '<strong>Published:</strong> ' + Date.format(this.date, 'r') }
+    }
+
+    body.content.comments = Breadlesscode.Blog:Component.CommentSection
+}

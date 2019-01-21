@@ -1,0 +1,11 @@
+prototype(Breadlesscode.Blog:Document.Tag) >
+prototype(Breadlesscode.Blog:Document.Tag) < prototype(Breadlesscode.BlogExample:Documents.BaseDocument) {
+    body {
+        headerTitle.@process.addCategoryPrefix = ${ 'Tag: ' + value }
+        content = Breadlesscode.Blog:Component.PostList {
+            paginated = true
+            itemsPerPage = 10
+            collection =  ${ q(site).find('[instanceof Breadlesscode.Blog:Document.Post]').filterByTags([ documentNode ]).get() }
+        }
+    }
+}

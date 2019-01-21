@@ -1,0 +1,9 @@
+prototype(Breadlesscode.BlogExample:Component.TagList) < prototype(Neos.Fusion:Component) {
+    tags = ${ [] }
+    renderer = afx`
+        <Neos.Fusion:Collection collection={props.tags} itemName="tag" @children="itemRenderer">
+            <Breadlesscode.BlogExample:Component.Link node={ tag }>{ q(tag).property('title') }</Breadlesscode.BlogExample:Component.Link>
+            { iterator.isLast ? '' : ', ' }
+        </Neos.Fusion:Collection>
+    `
+}

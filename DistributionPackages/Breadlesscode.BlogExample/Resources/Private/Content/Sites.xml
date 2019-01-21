@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <site name="Blog" state="1" siteResourcesPackageKey="Breadlesscode.BlogExample" siteNodeName="blog">
+  <nodes formatVersion="2.0">
+   <node identifier="ed294332-3f8c-436a-bd84-54f2e859204c" nodeName="blog">
+    <variant sortingIndex="100" workspace="live" nodeType="Breadlesscode.BlogExample:Document.Page" version="1" removed="" hidden="" hiddenInIndex="">
+     <dimensions>
+      <language>en_US</language>
+     </dimensions>
+     <accessRoles __type="array"/>
+     <creationDateTime __type="object" __classname="DateTime">2018-10-06T00:16:03+00:00</creationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T00:16:03+00:00</lastModificationDateTime>
+     <properties>
+      <uriPathSegment __type="string">blog</uriPathSegment>
+      <title __type="string">Blog</title>
+     </properties>
+    </variant>
+    <node identifier="b1c88715-91dc-ad45-9d5c-3340c662c637" nodeName="main">
+     <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>en_US</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-10-06T00:16:03+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T00:16:03+00:00</lastModificationDateTime>
+      <properties/>
+     </variant>
+     <node identifier="b425802e-d71a-4b84-96ca-52a7071b7ee9" nodeName="node-psd3lspeqjhir">
+      <variant sortingIndex="150" workspace="live" nodeType="Breadlesscode.Blog:Content.PostListing" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en_US</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-10-06T01:03:15+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T01:03:44+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-10-06T01:03:43+00:00</lastPublicationDateTime>
+       <properties>
+        <limit __type="integer">15</limit>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="f6d62417-9f94-4026-ba0c-89ccf25af0f6" nodeName="node-uig88ab8ism59">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="7" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en_US</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-10-06T01:02:59+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T01:03:44+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-10-06T01:03:43+00:00</lastPublicationDateTime>
+       <properties>
+        <title __type="string">&lt;h1&gt;Example Blog&lt;/h1&gt;
+</title>
+       </properties>
+      </variant>
+     </node>
+    </node>
+    <node identifier="0c8ec924-35e8-44e1-9b8a-5d82bd68a685" nodeName="node-37f96ocndvmq3">
+     <variant sortingIndex="200" workspace="live" nodeType="Breadlesscode.Blog:Document.CategoryBlog" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>en_US</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-10-06T00:25:41+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T00:30:09+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-10-06T00:30:08+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">general</uriPathSegment>
+       <title __type="string">General</title>
+      </properties>
+     </variant>
+     <node identifier="939e340a-7583-4c3a-a40b-27c1d1f70e35" nodeName="node-lo9xf2dwjrm5e">
+      <variant sortingIndex="350" workspace="live" nodeType="Breadlesscode.Blog:Document.Post" version="7" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en_US</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-10-06T00:29:49+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2019-01-21T17:54:35+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2019-01-21T17:54:35+00:00</lastPublicationDateTime>
+       <properties>
+        <uriPathSegment __type="string">demo-article-2</uriPathSegment>
+        <author __type="string">9de7e472-1ae1-4d17-a2ac-78194a69414d</author>
+        <categories __type="array">
+         <entry0 __type="string">0c8ec924-35e8-44e1-9b8a-5d82bd68a685</entry0>
+        </categories>
+        <datePublished __type="object" __classname="DateTime">2018-10-06T00:29:44+02:00</datePublished>
+        <title __type="string">Demo Article #2</title>
+        <tags __type="array">
+         <entry0 __type="string">1bf5ee65-5802-4172-884f-7382e888c047</entry0>
+         <entry1 __type="string">c4235a07-947e-4ceb-b487-cd0a1c4f8fb1</entry1>
+         <entry2 __type="string">790dbd7e-428d-4dde-ad83-e1132a466f7b</entry2>
+        </tags>
+        <excerpt __type="string">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takim</excerpt>
+       </properties>
+      </variant>
+      <node identifier="d18106d0-c800-c72b-77c3-abb6254696bb" nodeName="comments">
+       <variant sortingIndex="200" workspace="live" nodeType="Breadlesscode.Commentable:Collection.Comments" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>en_US</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-10-06T00:29:49+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T00:30:12+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-10-06T00:30:12+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="8454438a-38b7-45dc-be84-8a069ae25193" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Breadlesscode.Blog:Collection.PostContent" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>en_US</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-10-06T00:29:49+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T00:30:12+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-10-06T00:30:12+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="52c6f99b-b134-4197-8c76-cb5a38d68d34" nodeName="node-0b2t10ui79hc2">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>en_US</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-10-06T00:31:51+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T00:32:32+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-10-06T00:32:32+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Demo Article&lt;/h1&gt;
+</title>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="682306da-4cc3-4027-9192-c6de4a500df7" nodeName="node-55e2z2tvoe2hk">
+        <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>en_US</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-10-06T00:32:06+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T00:32:32+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-10-06T00:32:32+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+</text>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="e057b9f0-27e1-48d7-96c6-5dbf7169b77d" nodeName="node-u1e4ekhmepmz3">
+      <variant sortingIndex="450" workspace="live" nodeType="Breadlesscode.Blog:Document.Post" version="7" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en_US</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-10-06T01:03:29+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2019-01-21T17:54:58+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2019-01-21T17:54:58+00:00</lastPublicationDateTime>
+       <properties>
+        <uriPathSegment __type="string">demo-article-3</uriPathSegment>
+        <author __type="string">9de7e472-1ae1-4d17-a2ac-78194a69414d</author>
+        <categories __type="array">
+         <entry0 __type="string">0c8ec924-35e8-44e1-9b8a-5d82bd68a685</entry0>
+        </categories>
+        <datePublished __type="object" __classname="DateTime">2018-10-06T00:29:44+02:00</datePublished>
+        <title __type="string">Demo Article #3</title>
+        <tags __type="array">
+         <entry0 __type="string">1bf5ee65-5802-4172-884f-7382e888c047</entry0>
+         <entry1 __type="string">c4235a07-947e-4ceb-b487-cd0a1c4f8fb1</entry1>
+         <entry2 __type="string">790dbd7e-428d-4dde-ad83-e1132a466f7b</entry2>
+        </tags>
+        <excerpt __type="string">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takim</excerpt>
+       </properties>
+      </variant>
+      <node identifier="34553256-c42b-420b-952a-b0f25fdabbdf" nodeName="comments">
+       <variant sortingIndex="200" workspace="live" nodeType="Breadlesscode.Commentable:Collection.Comments" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>en_US</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-10-06T01:03:29+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T01:03:41+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-10-06T01:03:41+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="0b85e1da-5c05-4857-bb3a-f9c4a8d29075" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Breadlesscode.Blog:Collection.PostContent" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>en_US</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-10-06T01:03:29+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T01:03:41+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-10-06T01:03:41+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="1f3eea52-2110-4985-a5ef-11d81dd37527" nodeName="node-0b2t10ui79hc2">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>en_US</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-10-06T01:03:29+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T01:03:41+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-10-06T01:03:41+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Demo Article&lt;/h1&gt;
+</title>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="9d28e407-7f01-47af-89a5-3bf81e54f7ab" nodeName="node-55e2z2tvoe2hk">
+        <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>en_US</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-10-06T01:03:29+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T01:03:41+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-10-06T01:03:41+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+</text>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="0f2e1262-045c-40ef-845b-49eb356c4820" nodeName="node-z0sgbz3bnaots">
+      <variant sortingIndex="175" workspace="live" nodeType="Breadlesscode.Blog:Document.Post" version="7" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en_US</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-10-06T00:40:53+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2019-01-21T17:54:18+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2019-01-21T17:54:18+00:00</lastPublicationDateTime>
+       <properties>
+        <uriPathSegment __type="string">demo-article-1</uriPathSegment>
+        <author __type="string">9de7e472-1ae1-4d17-a2ac-78194a69414d</author>
+        <categories __type="array">
+         <entry0 __type="string">0c8ec924-35e8-44e1-9b8a-5d82bd68a685</entry0>
+        </categories>
+        <datePublished __type="object" __classname="DateTime">2018-10-06T00:29:44+02:00</datePublished>
+        <title __type="string">Demo Article #1</title>
+        <tags __type="array">
+         <entry0 __type="string">1bf5ee65-5802-4172-884f-7382e888c047</entry0>
+         <entry1 __type="string">c4235a07-947e-4ceb-b487-cd0a1c4f8fb1</entry1>
+         <entry2 __type="string">790dbd7e-428d-4dde-ad83-e1132a466f7b</entry2>
+        </tags>
+        <excerpt __type="string">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takim</excerpt>
+       </properties>
+      </variant>
+      <node identifier="033eb2a4-b88e-469b-89ef-961baaa886c7" nodeName="comments">
+       <variant sortingIndex="200" workspace="live" nodeType="Breadlesscode.Commentable:Collection.Comments" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>en_US</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-10-06T00:40:53+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T00:41:05+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-10-06T00:41:05+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="df6e6a45-4288-48cc-8b3e-e23f07494e29" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Breadlesscode.Blog:Collection.PostContent" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>en_US</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-10-06T00:40:53+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T00:41:05+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-10-06T00:41:05+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="c166c1da-3a81-40a3-a26e-e26acf54961e" nodeName="node-0b2t10ui79hc2">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>en_US</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-10-06T00:40:53+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T00:41:05+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-10-06T00:41:05+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Demo Article&lt;/h1&gt;
+</title>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="be23c449-8cb8-47fa-97f0-4f18adb84886" nodeName="node-55e2z2tvoe2hk">
+        <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>en_US</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-10-06T00:40:53+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T00:41:05+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-10-06T00:41:05+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+</text>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
+    </node>
+    <node identifier="c3c5b1fb-1b5b-4a99-9211-33b20654d047" nodeName="node-7kga5nwkqnwnu">
+     <variant sortingIndex="400" workspace="live" nodeType="Breadlesscode.Blog:Document.Author" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>en_US</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2019-01-15T12:24:34+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2019-01-15T12:24:41+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2019-01-15T12:24:41+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">marvin-kuhn</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Marvin Kuhn</title>
+       <user __type="string">9de7e472-1ae1-4d17-a2ac-78194a69414d</user>
+      </properties>
+     </variant>
+    </node>
+    <node identifier="c4235a07-947e-4ceb-b487-cd0a1c4f8fb1" nodeName="node-lq7637jwuhjv5">
+     <variant sortingIndex="350" workspace="live" nodeType="Breadlesscode.Blog:Document.Tag" version="5" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>en_US</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-10-06T00:40:22+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T00:48:14+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-10-06T00:48:14+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">blog</uriPathSegment>
+       <title __type="string">Blog</title>
+      </properties>
+     </variant>
+    </node>
+    <node identifier="4f6a4c73-9759-4ea8-98da-fb289e9ba5e0" nodeName="node-og85dlppp8eka">
+     <variant sortingIndex="225" workspace="live" nodeType="Breadlesscode.Blog:Document.CategoryBlog" version="5" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>en_US</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-10-06T00:42:03+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T00:47:47+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-10-06T00:47:47+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">neos-cms</uriPathSegment>
+       <title __type="string">Neos CMS</title>
+      </properties>
+     </variant>
+     <node identifier="d207b21c-3f81-4c2d-8ca2-cfd5abc08f0f" nodeName="node-v31r6c2bc7r7n">
+      <variant sortingIndex="338" workspace="live" nodeType="Breadlesscode.Blog:Document.Post" version="7" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en_US</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-10-06T00:42:16+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2019-01-21T17:55:31+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2019-01-21T17:55:31+00:00</lastPublicationDateTime>
+       <properties>
+        <uriPathSegment __type="string">new-post</uriPathSegment>
+        <author __type="string">9de7e472-1ae1-4d17-a2ac-78194a69414d</author>
+        <categories __type="array">
+         <entry0 __type="string">4f6a4c73-9759-4ea8-98da-fb289e9ba5e0</entry0>
+        </categories>
+        <datePublished __type="object" __classname="DateTime">2018-10-06T00:42:13+02:00</datePublished>
+        <title __type="string">New Post</title>
+        <tags __type="array">
+         <entry0 __type="string">790dbd7e-428d-4dde-ad83-e1132a466f7b</entry0>
+        </tags>
+        <excerpt __type="string">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd </excerpt>
+       </properties>
+      </variant>
+      <node identifier="49b146ed-a021-c184-8747-a604616f2ca2" nodeName="comments">
+       <variant sortingIndex="200" workspace="live" nodeType="Breadlesscode.Commentable:Collection.Comments" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>en_US</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-10-06T00:42:16+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T00:42:30+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-10-06T00:42:29+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="a027df90-2f96-7c17-293c-f8195b9bd90e" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Breadlesscode.Blog:Collection.PostContent" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>en_US</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-10-06T00:42:16+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T00:42:30+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-10-06T00:42:29+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="0786daaf-97f8-408a-a83f-3a3126fa9d5b" nodeName="node-6i7jg3pefpgo0">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>en_US</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-10-06T00:43:03+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T00:43:36+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-10-06T00:43:35+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Hello world&lt;/h1&gt;
+</title>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="07088a92-4afa-44d3-9d0c-270933ab9a98" nodeName="node-b8rjsjkrc7k3b">
+        <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>en_US</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-10-06T00:43:13+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T00:43:36+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-10-06T00:43:35+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+</text>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
+    </node>
+    <node identifier="790dbd7e-428d-4dde-ad83-e1132a466f7b" nodeName="node-p6a675tuvjyuq">
+     <variant sortingIndex="300" workspace="live" nodeType="Breadlesscode.Blog:Document.Tag" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>en_US</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-10-06T00:40:14+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T00:48:00+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-10-06T00:48:00+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">example</uriPathSegment>
+       <title __type="string">Example</title>
+      </properties>
+     </variant>
+    </node>
+    <node identifier="1bf5ee65-5802-4172-884f-7382e888c047" nodeName="node-rws6be889wqd6">
+     <variant sortingIndex="250" workspace="live" nodeType="Breadlesscode.Blog:Document.Tag" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>en_US</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-10-06T00:40:07+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-10-06T00:48:00+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-10-06T00:48:00+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">demo</uriPathSegment>
+       <title __type="string">Demo</title>
+      </properties>
+     </variant>
+    </node>
+   </node>
+  </nodes>
+ </site>
+</root>

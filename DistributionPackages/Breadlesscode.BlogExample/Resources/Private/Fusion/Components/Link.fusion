@@ -1,0 +1,11 @@
+prototype(Breadlesscode.BlogExample:Component.Link) < prototype(Neos.Fusion:Component) {
+    node = ''
+    node.@process.convertUri =  Neos.Neos:NodeUri {
+        node = ${ value }
+    }
+    content = ''
+
+    renderer = afx`
+        <a href={ props.node }>{props.content}</a>
+    `
+}

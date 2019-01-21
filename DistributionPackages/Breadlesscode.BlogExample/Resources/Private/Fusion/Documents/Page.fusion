@@ -1,0 +1,3 @@
+prototype(Breadlesscode.BlogExample:Document.Page) < prototype(Breadlesscode.BlogExample:Documents.BaseDocument) {
+
+}

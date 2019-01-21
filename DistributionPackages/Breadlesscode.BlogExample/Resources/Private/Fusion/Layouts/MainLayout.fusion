@@ -1,0 +1,35 @@
+prototype(Breadlesscode.BlogExample:Layouts.MainLayout) < prototype(Neos.Fusion:Component) {
+    headerTitle = ''
+    categories = ${ [] }
+    tags = ${ [] }
+    content = ''
+    footer = ''
+
+    renderer = afx`
+        <div class="page">
+            <header>
+                <h1>{ props.headerTitle }</h1>
+            </header>
+            <div class="content">
+                <main>{props.content}</main>
+                <aside>
+                    <h2>Categories</h2>
+                    <ul>
+                        <Neos.Fusion:Collection collection={props.categories} itemName="category" @children="itemRenderer">
+                            <li>
+                                <Breadlesscode.BlogExample:Component.Link node={ category }>{ q(category).property('title') }</Breadlesscode.BlogExample:Component.Link>
+                            </li>
+                        </Neos.Fusion:Collection>
+                    </ul>
+                    <h2>Tags</h2>
+                    <div class="tags">
+                        <Breadlesscode.BlogExample:Component.TagList tags={props.tags} />
+                    </div>
+                </aside>
+            </div>
+            <footer>
+                { props.footer }
+            </footer>
+        </div>
+    `
+}

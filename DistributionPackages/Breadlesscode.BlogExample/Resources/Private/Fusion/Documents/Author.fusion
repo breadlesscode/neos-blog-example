@@ -1,0 +1,6 @@
+prototype(Breadlesscode.Blog:Document.Author) >
+prototype(Breadlesscode.Blog:Document.Author) < prototype(Breadlesscode.BlogExample:Documents.BaseDocument) {
+    body.headerTitle.@process.addCategoryPrefix = ${ 'Author: ' + value }
+    body.content.main >
+    body.content.postList = Breadlesscode.Blog:Component.PostList.Author
+}
